@@ -1,0 +1,111 @@
+demoVFT columns:
+
+site: one of 6 sites; consistent with other datasets
+
+ID: unique ID number of the plant, which stays consistent across years. Note that ID’s can be repeated across sites.
+
+Libsur_prevTS: survival since the previous year (1= survived, 0= died)
+
+Size: ln of size in the current year (where size is the product of leaf number and longest leaf length, in mm)
+
+Fr: fruit number in the current year
+
+Year: current year
+
+Size_prevTS: for ease of reference, ln of size in the previous year (where size is the product of leaf number and longest leaf length, in mm)
+
+Burn: years since burn (where 1 indicates a site burned sometime over the past year)
+
+Binrep: binary fruiting response in the current year; 0 if a plant did not fruit; 1 if it did
+
+Region: one of three regions; each region houses two sites; consistent with other datasets
+
+annual.precip.metdata: cumulative annual precipitation over the past year, in mm.
+
+precip.wettest.month.metdata: cumulative precipitation in the wettest month in the past year, in mm.
+
+precip.driest.month.metdata: cumulative precipitation in the driest month in the past year, in mm.
+
+precip.coldest.month.metdata: cumulative precipitation in the coldest month in the past year, in mm.
+
+precip.warmest.month.metdata: cumulative precipitation in the warmest month in the past year, in mm.
+
+Each of the following climate variables either has an “ibutton” or “metdata” suffix. The “ibutton” suffix indicates that temperature data were drawn from ibutton temperatures (soil temperature; see main text). The “metdata” suffix indicates that temperature data were drawn from air temperatures (from METDATA; see main text).
+
+annual.mean.temp: annual mean temperature over the past year, in degrees C
+
+max.dmean.temp.warmest.month: maximum of daily mean temperatures during the warmest month over the past year, in degrees C
+
+min.dmean.temp.coldest.month: minimum of daily mean temperatures in the coldest month over the past year, in degrees C.
+
+cwd.warmest.month: climatic water deficit in the warmest month over the past year, in mm.
+
+cwd.wettest.month: climatic water deficit in the wettest month over the past year, in mm.
+
+cwd.driest.month: climatic water deficit in the driest month over the past year, in mm.
+
+cwd.annual: climatic water deficit over the past year, in mm.
+
+waterbalance.warmest.month: water balance in the warmest month over the past year, in mm/ month.
+
+waterbalance.driest.month: water balance in the driest month over the past year, in mm/ month.
+
+waterbalance.wettest.month: water balance in the wettest month over the past year, in mm/ month.
+
+waterbalance.annual.ibutton: water balance over the past year, in mm/ month.
+
+cwd.coldest.month: climatic water deficit in the coldest month over the past year, in mm.
+
+waterbalance.coldest.month: water balance in the coldest month over the past year, in mm/ month.
+
+mn.dmean.temp.driest.month: mean of the daily mean temperatures in the driest month over the past year, in degrees C.
+
+mn.dmean.temp.wettest.month: mean of the daily mean temperatures in the wettest month over the past year, in degrees C.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+demoVFT.rec columns:
+
+site: one of six sites, consistent across datasets
+
+seedlings.per.m.2: seedlings per m^2 found in the indicated year
+
+year: year of survey
+
+fruitperm2_lastyear : total fruits per m^2 found in the year prior
+
+burn: years since burn (where 1 indicates a site burned sometime over the past year)
+
+region: one of three regions; each region houses two sites; consistent with other datasets
+
+-----------------------------------------------------------------------------------------------------------------------
+
+NRVFT columns:
+
+site: one of six sites, consistent across datasets.
+
+binrep: binary fruiting response in the current year; 0 if a plant did not fruit; 1 if it did.
+
+growth: log of size in the current year.
+
+libsur_prevTS: survival since the previous year (1= survived, 0= died).
+
+logfr_conditionalpersize: log (fruit number / size), for all plants that fruited in that year, where size is the product of leaf number and longest leaf length, in mm.
+
+size_prevTS: log of size in the year prior (where size is the product of leaf number and longest leaf length, in mm).
+
+trt: one of “both”,”ctrl”, “fire”, or ”rem.” “Both” treatment is neighbor removal + ash addition, “ctrl” is unmanipulated control treatment, “fire” is the accidental fire condition, and “rem” is neighbor removal.
+
+Year: year that measurements were taken.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+NRVFT.rec columns:
+
+site: one of six sites, consistent across datasets
+
+seedlings.per.m.2: seedlings per m^2 found in the indicated year
+
+fruitperm2_lastyear : total fruits per m^2 found in the year prior
+
+trt: one of “both”,”ctrl”, “fire”, or ”rem.” “Both” treatment is neighbor removal + ash addition, “ctrl” is unmanipulated control treatment, “fire” is the accidental fire condition, and “rem” is neighbor removal.
