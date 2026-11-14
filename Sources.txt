@@ -2,3 +2,9 @@ FIGSHARE CITATION:
 
 Louthan, A., Keighron, M., Kiekebusch, E., Cayton, H., Terando, A., & Morris, W. (2022). <i>data for: "Climate change weakens the impact of disturbance interval on the growth rate of natural populations of Venus flytrap"</i> (Version 1). figshare. https://doi.org/10.6084/m9.figshare.19115984.v1
 
+-----------------------------------------------------------------------------------------------------------------------
+
+FIRELOGGERS CITATION:
+
+Gagnon, Paul R.; Passmore, Heather A.; Slocum, Matthew et al. (2016). Data from: Fuels and fires influence vegetation via above- and below-ground pathways in a high-diversity plant community [Dataset]. Dryad. https://doi.org/10.5061/dryad.q8q44
+
