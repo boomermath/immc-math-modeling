@@ -29,4 +29,34 @@ S7,10 Mar. 2014,1148,687,0.140,0.03,"10.61 (7.50, 13.73)",0.88
 S8,13 May 2013,1449,695,1.976,0.37,"7.11 (5.05, 9.18)",0.76
 Note: I removed commas from the Bloom area values so they are interpreted as numbers in R, Python, and Excel. I also put quotation marks around the species richness confidence intervals so they remain in one column.
 
--------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------
+
+-----Query:
+Climate driver	Average value (past)	Average value (future)	Sensitivity (past)	Elasticity (past)	Sensitivity (future)	Elasticity (future)
+Mean annual temperature	17.8808°C	19.3313°C	0.0909	1.7136	0.0411	0.7826
+Annual precipitation	1383.4625 mm	1408.0104 mm	−0.0002	−0.3657	<0.0001	−0.0566
+Maximum of daily mean temperature in the warmest month	28.7424°C	30.2483°C	0.0853	2.6080	−0.0066	−0.1980
+Minimum of daily mean temperature in the coldest month	5.0469°C	7.0194°C	−0.0446	−0.2371	−0.0082	−0.0573
+Mean of daily mean temperature in the driest month	9.9547°C	11.5390°C	−0.0494	−0.5123	−0.0382	−0.4378
+Precipitation in the driest month	98.6865 mm	94.7221 mm	−0.0007	−0.0762	−0.0007	−0.0659
+Precipitation in the warmest month	168.8058 mm	155.4600 mm	−0.0003	−0.0545	0.0012	0.1903
+Precipitation in the wettest month	183.0845 mm	167.0135 mm	<0.0001	−0.0017	<0.0001	<0.0001
+
+convert to csv
+
+-----Answer:
+
+Copy and paste this directly into VS Code and save it as a .csv file.
+
+
+csv
+Climate driver,Average value (past),Average value (future),Sensitivity (past),Elasticity (past),Sensitivity (future),Elasticity (future)
+Mean annual temperature,17.8808°C,19.3313°C,0.0909,1.7136,0.0411,0.7826
+Annual precipitation,1383.4625 mm,1408.0104 mm,-0.0002,-0.3657,<0.0001,-0.0566
+Maximum of daily mean temperature in the warmest month,28.7424°C,30.2483°C,0.0853,2.6080,-0.0066,-0.1980
+Minimum of daily mean temperature in the coldest month,5.0469°C,7.0194°C,-0.0446,-0.2371,-0.0082,-0.0573
+Mean of daily mean temperature in the driest month,9.9547°C,11.5390°C,-0.0494,-0.5123,-0.0382,-0.4378
+Precipitation in the driest month,98.6865 mm,94.7221 mm,-0.0007,-0.0762,-0.0007,-0.0659
+Precipitation in the warmest month,168.8058 mm,155.4600 mm,-0.0003,-0.0545,0.0012,0.1903
+Precipitation in the wettest month,183.0845 mm,167.0135 mm,<0.0001,-0.0017,<0.0001,<0.0001
+Note: I converted the negative Unicode signs (−) to standard minus signs (-) for easier compatibility with Python, R, and Excel. I preserved the <0.0001 values as written.
