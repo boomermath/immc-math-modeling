@@ -1,0 +1,84 @@
+Data Set Owner(s):
+
+Paul R. Gagnon, Ph.D.
+Assistant Professor
+Department of Biological Sciences &
+Watershed Studies Institute
+Murray State University
+2112 Biology Building
+Murray, KY  42071
+pgagnon@murraystate.edu
+www.murraystate.edu/paulgagnon
+
+Heather A. Passmore, Ph.D.
+Murray State University
+
+Matthew Slocum, Ph.D.
+Ruths.ai
+
+Jonathan A. Myers, Ph.D.
+Washington University in St. Louis
+
+Kyle E. Harms, Ph.D.
+Louisiana State University
+
+William J. Platt, Ph.D.
+Louisiana State University
+
+C. E. Timothy Paine, Ph.D.
+University of Stirling
+
+Key words:
+disturbance
+fire duration
+fire temperature
+first- and second-order fire effects
+longleaf pine savanna
+plant population and community dynamics
+residence time
+resprouting
+soil heating
+structural equation modelling
+vegetation dynamics
+
+Geographic Coverage:
+Camp Whispering Pines, Independence, Louisiana, USA 30 41' N, 90 29' W
+
+Temporal Coverage:
+Begin: May 2007
+End: June 2007
+
+Project Info:
+Title: Ecological processes influencing local biodiversity in species-rich pine savanna groundcover
+Funding: National Science Foundation Grants DEB-0516175, DEB-1144079 and DEB-1144084
+
+File: FireLoggersCombinedData_DRYAD.csv
+
+Description: Data for time and temperature during fire from 48 burned sampling plots divided evenly among two burn-units, along with data for subsequent vegetation response in each of the 48 plots. Time and temperature data were measured by K-type thermocouples attached to HOBO dataloggers. A subset of plots (N=18) include time and temperature measurements in vertical profile taken: 1) 1 cm aboveground, 2) at the soil surface, 3) 1 cm belowground, 4) 2 cm belowground, and 5) 4 cm belowground.
+
+Column Headings:
+1) Observation: Each data point is given a unique observation number for reference purposes corresponding to an individual datalogger on a given day. Range = 1-120.
+
+2) Burn.unit: Site-names (“Sunset” and “Tallwinds”) used at Camp Whispering Pines for two areas separated by fire lines burned under prescription near mid-day on two different days.
+
+3) Plot.no: Unique 5-digit numerical IDs for each 2 x 2 m sample plot where we manipulated fine fuels.
+
+4) Fuel.trt: Three levels of manipulated fine fuel treatments (increased-fuels, reduced-fuels, and controls) we assigned equally and randomly to 48 plots divided evenly between the two burn units.
+
+5) Logger.pos: Position in vertical profile of thermocouple tip: Above (1cm above soil surface), Surface (on soil surface), 1Below (1 cm belowground), 2Below (2 cm belowground), 4Below (4 cm belowground), 
+
+6) Profile: In 18 sample plots, we sampled fire temperatures in a vertical profile at 5 above- and belowground logger positions. Observations from these 18 plots are indicated with “profile” while observations from plots with just one thermocouple on the surface are indicated with “no”.
+
+7) GreenFreq: Percentage of the 100, 10 x 10 cm cells in each 1m^2 sample plot containing any green vegetation three weeks after burning.
+
+8) Peak.temp: Hottest temperature recorded at the given logger position during the fire. Used to calculate Maximum Temperature Increase (Max.temp.incr); units=degrees Celsius.
+
+9) Ambient.temp: Average ambient temperature for each logger during the 30 minutes prior to the arrival of the flame front. Units=degrees Celsius.
+
+10) Max.temp.incr: Difference between “peak.temp” and “ambient.temp” calculated for every deployed logger; units=degrees Celsius.
+
+11) Duration.emp: Calculated duration using the time between when temperatures increased more than 0.3°C per second and the time they fell below 50°C. Calculated from “surface” and “above” loggers but used in our analyses only for “surface”; units=minutes:seconds.
+
+12) Total.heat.emp: Area under the time-temperature series from a fire-logger during the period of “Duration.emp.”
+
+13) Notes: Notes for specific loggers from the field, during analysis, and regarding outlier removed (n=2).
