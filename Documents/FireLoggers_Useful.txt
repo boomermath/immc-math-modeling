@@ -3,3 +3,5 @@
 4) Fuel.trt: Three levels of manipulated fine fuel treatments (increased-fuels, reduced-fuels, and controls) we assigned equally and randomly to 48 plots divided evenly between the two burn units.
 
 7) GreenFreq: Percentage of the 100, 10 x 10 cm cells in each 1m^2 sample plot containing any green vegetation three weeks after burning.
+
+9) Ambient.temp: Average ambient temperature for each logger during the 30 minutes prior to the arrival of the flame front. Units=degrees Celsius.
