@@ -1,0 +1,55 @@
+demoVFT columns:
+
+site: one of 6 sites; consistent with other datasets
+
+ID: unique ID number of the plant, which stays consistent across years. Note that ID’s can be repeated across sites.
+
+Libsur_prevTS: survival since the previous year (1= survived, 0= died)
+
+Size: ln of size in the current year (where size is the product of leaf number and longest leaf length, in mm)
+
+Year: current year
+
+Size_prevTS: for ease of reference, ln of size in the previous year (where size is the product of leaf number and longest leaf length, in mm)
+
+Burn: years since burn (where 1 indicates a site burned sometime over the past year)
+
+Region: one of three regions; each region houses two sites; consistent with other datasets
+
+annual.precip.metdata: cumulative annual precipitation over the past year, in mm.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+demoVFT.rec columns:
+
+site: one of six sites, consistent across datasets
+
+seedlings.per.m.2: seedlings per m^2 found in the indicated year
+
+year: year of survey
+
+burn: years since burn (where 1 indicates a site burned sometime over the past year)
+
+region: one of three regions; each region houses two sites; consistent with other datasets
+
+-----------------------------------------------------------------------------------------------------------------------
+
+NRVFT columns:
+
+site: one of six sites, consistent across datasets.
+
+size_prevTS: log of size in the year prior (where size is the product of leaf number and longest leaf length, in mm).
+
+trt: one of “both”,”ctrl”, “fire”, or ”rem.” “Both” treatment is neighbor removal + ash addition, “ctrl” is unmanipulated control treatment, “fire” is the accidental fire condition, and “rem” is neighbor removal.
+
+Year: year that measurements were taken.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+NRVFT.rec columns:
+
+site: one of six sites, consistent across datasets
+
+seedlings.per.m.2: seedlings per m^2 found in the indicated year
+
+trt: one of “both”,”ctrl”, “fire”, or ”rem.” “Both” treatment is neighbor removal + ash addition, “ctrl” is unmanipulated control treatment, “fire” is the accidental fire condition, and “rem” is neighbor removal.
