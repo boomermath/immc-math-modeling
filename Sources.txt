@@ -8,3 +8,14 @@ FIRELOGGERS CITATION:
 
 Gagnon, Paul R.; Passmore, Heather A.; Slocum, Matthew et al. (2016). Data from: Fuels and fires influence vegetation via above- and below-ground pathways in a high-diversity plant community [Dataset]. Dryad. https://doi.org/10.5061/dryad.q8q44
 
+-----------------------------------------------------------------------------------------------------------------------
+
+TEMPDATA CITATION:
+
+North Carolina State Climate Office. (n.d.). Climate Trends Plotter. https://products.climate.ncsu.edu/climate/trends/
+
+-----------------------------------------------------------------------------------------------------------------------
+
+BURNDATA CITATION:
+
+Laura E Hamon, Elsa Youngsteadt, Rebecca E Irwin, Clyde E Sorenson, Pollination Ecology and Morphology of Venus Flytrap in Sites of Varying Time Since Last Fire, Annals of the Entomological Society of America, Volume 112, Issue 3, May 2019, Pages 141–149, https://doi.org/10.1093/aesa/say032
