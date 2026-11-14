@@ -19,3 +19,11 @@ North Carolina State Climate Office. (n.d.). Climate Trends Plotter. https://pro
 BURNDATA CITATION:
 
 Laura E Hamon, Elsa Youngsteadt, Rebecca E Irwin, Clyde E Sorenson, Pollination Ecology and Morphology of Venus Flytrap in Sites of Varying Time Since Last Fire, Annals of the Entomological Society of America, Volume 112, Issue 3, May 2019, Pages 141–149, https://doi.org/10.1093/aesa/say032
+
+-----------------------------------------------------------------------------------------------------------------------
+
+SENSITIVITY COEFFICIENTS CITATION:
+
+A. M. Louthan, M. Keighron, E. Kiekebusch, H. Cayton, A. Terando, and W. F. Morris. Climate change
+weakens the impact of disturbance interval on the growth rate of natural populations of Venus flytrap.
+Ecological Monographs, 92(4):e1528, 2022.
