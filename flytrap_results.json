@@ -1,0 +1,140 @@
+{
+  "model": "compact observational-data refit of Louthan et al. IPM",
+  "warning": "Not the authors' AICc-selected model or their historical/future climate projection.",
+  "burn_source": "demoVFT.csv burn column",
+  "burn_site_years": {
+    "coastal.1:2016": 1,
+    "coastal.1:2017": 2,
+    "coastal.1:2018": 1,
+    "coastal.2:2016": 7,
+    "coastal.2:2017": 8,
+    "coastal.2:2018": 9,
+    "inland.1:2016": 9,
+    "inland.1:2017": 10,
+    "inland.1:2018": 11,
+    "inland.2:2016": 1,
+    "inland.2:2017": 2,
+    "inland.2:2018": 3,
+    "mid.1:2016": 2,
+    "mid.1:2017": 3,
+    "mid.1:2018": 4,
+    "mid.2:2016": 12,
+    "mid.2:2017": 1,
+    "mid.2:2018": 2
+  },
+  "features": [
+    "intercept",
+    "size",
+    "burn",
+    "burn_squared",
+    "annual_temp",
+    "annual_precip",
+    "site:coastal.2",
+    "site:inland.1",
+    "site:inland.2",
+    "site:mid.1",
+    "site:mid.2"
+  ],
+  "scaling_mean_sd": {
+    "size_prevTS": [
+      4.469828631221484,
+      1.0933743358845092
+    ],
+    "burn": [
+      4.4021816121263635,
+      3.8060577270841978
+    ],
+    "annual.mean.temp.ibutton": [
+      18.531094315531025,
+      1.0410001568418554
+    ],
+    "annual.precip.metdata": [
+      1645.1928362090948,
+      200.95268840831616
+    ]
+  },
+  "coefficients": {
+    "survival": [
+      2.566927729800252,
+      0.5787234784051649,
+      0.37787837936168805,
+      -0.23585393229702817,
+      0.408862484233183,
+      0.15907643292279644,
+      -0.3415931443497109,
+      1.7614763236969269,
+      0.8370819231816583,
+      -0.8423001639973109,
+      -0.26850066636198866
+    ],
+    "growth": [
+      4.969171540850916,
+      0.402856553625971,
+      0.3576625444128385,
+      -0.27442212803635235,
+      -0.18690295530689804,
+      0.09515428980829263,
+      -0.35006568224108625,
+      -0.6592409117358982,
+      0.0799528804156856,
+      0.10335640002889455,
+      0.20848429846558525
+    ],
+    "fruiting": [
+      -2.0117593609028166,
+      0.9951438366986494,
+      0.9281531524817351,
+      -0.48352316289656116,
+      -0.49115794149301056,
+      0.7786447005526238,
+      -0.43272365701297,
+      0.8401852158994213,
+      0.3736991124797988,
+      0.5322099130781703,
+      0.4675316994513787
+    ],
+    "fruit_count": [
+      -2.6700063032183254,
+      -1.0112517758398694,
+      0.04060493777742087,
+      0.015899972974483,
+      -0.11705814694256941,
+      0.16115677880630094,
+      -0.23280234042791526,
+      -0.1821014547990561,
+      0.173136636858447,
+      0.15317671038178324,
+      0.11017630435055652
+    ],
+    "growth_variance": 0.7108803195200043
+  },
+  "sample_sizes": {
+    "survival": 4877,
+    "growth": 4230,
+    "fruiting": 4240,
+    "fruit_count": 702
+  },
+  "fixed_climate": {
+    "annual.mean.temp.ibutton": 18.355946766747994,
+    "annual.precip.metdata": 1627.41625
+  },
+  "recruitment_per_fruit": 0.01818,
+  "projection_settings": {
+    "years": 100,
+    "mesh_points": 100,
+    "climate": "mean across observed site-years",
+    "fire": "deterministic interval; years since fire reset to 1"
+  },
+  "lambda_definition": "Geometric mean of yearly population multipliers over the final min(years, 5*interval) simulated years",
+  "projected_lambda_by_fire_return_interval": {
+    "1": 0.857566650791574,
+    "2": 0.8796030048923305,
+    "3": 0.8977752148564941,
+    "5": 0.924928337559216,
+    "8": 0.9480747681686468,
+    "10": 0.9533858718086433,
+    "12": 0.9500680710596108,
+    "15": 0.9233913502555622,
+    "20": 0.756076962397482
+  }
+}
